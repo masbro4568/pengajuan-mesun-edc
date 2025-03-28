@@ -31,3 +31,4 @@ function sendMessage($id_telegram, $message, $id_botTele) {
 sendMessage($id_telegram, $message, $id_botTele);
 header('Location: ../konfirmasivia.html');
 ?>
+ 
